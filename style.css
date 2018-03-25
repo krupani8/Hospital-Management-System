@@ -1,0 +1,79 @@
+body {
+background-image: url(original.jpg); /*You will specify your image path here.*/
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+form { 
+
+margin: 0 auto; 
+width:250px;
+}
+input[type="email"]
+{
+    font-size:24px;
+    border-radius: 15px;
+}
+input[type="password"]
+{
+    font-size:24px;
+    border-radius: 15px;
+}
+input[type="submit"]
+{
+     font-size:24px;
+     border-radius: 15px;
+     box-shadow: inset 0 0 5px rgba(000,000,000, 0.5); 
+}
+input[type="button"]
+{
+    font-size:24px;
+     border-radius: 15px;
+     box-shadow: inset 0 0 5px rgba(000,000,000, 0.5); 
+}
+input[type="radio"]
+{
+    font-size:24px;
+}
+input[type="text"]
+{
+    font-size:24px;
+    border-radius: 15px;
+}
+
+
+table {
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid black;
+    font-size:24px;
+} 
+
+td {
+    border: 1px solid black;
+    font-size:24px;
+}
+
+table.ex1 {
+    table-layout: auto;
+    font-size:24px;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+
+ select {
+ border-radius: 15px;
+       font-size:24px;
+     border-radius: 15px;
+     box-shadow: inset 0 0 5px rgba(000,000,000, 0.5); 
+     font-style :Monotype Corsiva;
+    }
+   
